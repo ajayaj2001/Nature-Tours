@@ -1,0 +1,201 @@
+@import "../index.scss";
+$white: #ffffff;
+$color-green-light: #7ed56f;
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)),
+        url(../img/hero-small.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+    @media (min-resolution: 192dpi) and(min-width:37.5em), (min-width: 125em) {
+        background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)),
+            url(../img/hero.jpg);
+    }
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+    &__logo {
+        height: 3.5rem;
+    }
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    @include respond(phone) {
+        clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    }
+}
+.heading-primary {
+    color: $white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        /* animation-delay: 2s; 
+        animation-iteration-count: 3;*/
+        animation-timing-function: ease-out;
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-size: 5rem;
+        }
+    }
+    &--sec {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.7rem;
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        @include respond(phone) {
+            letter-spacing: 0.5rem;
+        }
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80% {
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    80% {
+        transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        padding: 1rem 3rem;
+        text-transform: uppercase;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all 0.2s;
+        position: relative;
+        font-size: 1.6rem;
+
+        //for button element
+
+        border: none;
+        cursor: pointer;
+    }
+    &:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+        &::after {
+            transform: scalex(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-0.1rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+    &--white {
+        background-color: #fff;
+        color: grey;
+        &::after {
+            background-color: #fff;
+        }
+    }
+    &--green {
+        background-color: rgba(40, 180, 131, 0.8);
+        color: white;
+        &::after {
+            background-color: rgba(40, 180, 131, 0.8);
+        }
+    }
+    &::after {
+        content: "";
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all 0.4s;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    &--animation {
+        animation: moveInBottom 0.5s ease-out 0.75 backwards;
+    }
+}
+
+// for float test
+// $margin-space: 6rem;
+// .row {
+//     @include clearfix;
+//     background-color: gray;
+//     max-width: 114rem;
+//     margin: 0 auto;
+//     color: white;
+
+//     &:not(:last-child) {
+//         margin-bottom: $margin-space;
+//     }
+//     [class^="col-"] {
+//         background-color: orangered;
+//         float: left;
+//         &:not(:last-child) {
+//             margin-right: $margin-space;
+//         }
+//     }
+//     .col-1-of-2 {
+//         width: calc((100% - #{$margin-space}) / 2);
+//     }
+//     .col-1-of-3 {
+//         width: calc((100% - (#{$margin-space}* 2)) / 3);
+//     }
+// }
