@@ -22,7 +22,7 @@ const about = () => {
                         <div className="col-1-of-2">
                             <h3 className="heading-tri">LIVE ADVENTURES LIKE YOU NEVER HAVE BEFORE</h3>
                             <p className="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos, eveniet officia deserunt, </p>
-                            <a href="#" className="btn-text">Learn More &rarr;</a>
+                            <button className="btn-text">Learn More &rarr;</button>
                         </div>
                         <div className="col-1-of-2">
                             <div className="composition">

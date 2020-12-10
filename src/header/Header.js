@@ -13,7 +13,7 @@ const Header = () => {
                         <span className="heading-primary--main">outdoors</span>
                         <span className="heading-primary--sec">is where life happens</span>
                     </h1>
-                    <a className="btn btn--white btn--animation" href="#">Discover Our Tours</a>
+                    <button className="btn btn--white btn--animation" >Discover Our Tours</button>
                 </div>
             </header>
             {/* <section>

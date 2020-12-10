@@ -48,7 +48,7 @@ const Stories = () => {
                     </div>
                 </div>
                 <div className="u-center-text u-bottom-8">
-                    <a href="#" className="btn-text"> Read all stories  &rarr;</a>
+                    <button className="btn-text">Read all stories &rarr;</button>
                 </div>
             </section>
         </div>

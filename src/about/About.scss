@@ -55,6 +55,7 @@ $margin-space: 6rem;
 }
 
 .btn-text {
+    &,
     &:link,
     &:visited {
         text-decoration: none;
@@ -65,11 +66,16 @@ $margin-space: 6rem;
         font-weight: 600;
         margin-top: 3rem;
         transition: all 0.2s;
+        //for button element
+        padding: 0.5rem 1rem;
+        background-color: #f7f7f7;
+        border: none;
+        cursor: pointer;
     }
     &:hover {
         color: white;
         background-color: $color-light-green;
-        padding: 0 1rem;
+        padding: 0.5rem 1rem;
         border-bottom: 0.1rem solid $color-light-green;
         box-shadow: 0 1rem 2rem rgba(black, 0.15);
         transform: translateY(-0.2rem);

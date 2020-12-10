@@ -24,7 +24,7 @@ const Popup = () => {
                         consectetur voluptatibus neque ducimus dolorum vitae sunt.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
                          </p>
-                        <a href="#" className="btn btn--green">book now</a>
+                        <button className="btn btn--green">book now</button>
                     </div>
                 </div>
             </section>

@@ -36,7 +36,7 @@ const Tours = () => {
                                             $297
                                         </p>
                                     </div>
-                                    <a href="#popup" className="btn btn--white">book now !</a>
+                                    <a className="btn btn--white" href="#popup">book now !</a>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Tours = () => {
                                         $497
                                         </p>
                                 </div>
-                                <a href="#popup" className="btn btn--white">book now !</a>
+                                <a className="btn btn--white" href="#popup">book now !</a>
                             </div>
                         </div>
                     </div></div>
@@ -95,14 +95,14 @@ const Tours = () => {
                                         $897
                                         </p>
                                 </div>
-                                <a href="#popup" className="btn btn--white">book now !</a>
+                                <a className="btn btn--white" href="#popup">book now !</a>
                             </div>
                         </div>
                     </div>
                     </div>
                 </div>
                 <div className="u-center-text u-top-10">
-                    <a href="#" className="btn btn--green">Discover all tours</a>
+                    <button className="btn btn--green" href="#popup">Discover all tours</button>
                 </div>
             </section>
         </div>
