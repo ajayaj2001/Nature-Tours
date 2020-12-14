@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Nature-Tours/static/css/main.a5808356.chunk.css",
+    "main.js": "/Nature-Tours/static/js/main.4f178fb7.chunk.js",
+    "main.js.map": "/Nature-Tours/static/js/main.4f178fb7.chunk.js.map",
+    "runtime-main.js": "/Nature-Tours/static/js/runtime-main.a23a079e.js",
+    "runtime-main.js.map": "/Nature-Tours/static/js/runtime-main.a23a079e.js.map",
+    "static/js/2.b4a4e902.chunk.js": "/Nature-Tours/static/js/2.b4a4e902.chunk.js",
+    "static/js/2.b4a4e902.chunk.js.map": "/Nature-Tours/static/js/2.b4a4e902.chunk.js.map",
+    "index.html": "/Nature-Tours/index.html",
+    "static/css/main.a5808356.chunk.css.map": "/Nature-Tours/static/css/main.a5808356.chunk.css.map",
+    "static/js/2.b4a4e902.chunk.js.LICENSE.txt": "/Nature-Tours/static/js/2.b4a4e902.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/Nature-Tours/static/media/hero.15e5f60e.jpg",
+    "static/media/logo-green-1x.cf3c47ee.png": "/Nature-Tours/static/media/logo-green-1x.cf3c47ee.png",
+    "static/media/logo-green-2x.76177450.png": "/Nature-Tours/static/media/logo-green-2x.76177450.png",
+    "static/media/logo-green-small-2x.de221e6e.png": "/Nature-Tours/static/media/logo-green-small-2x.de221e6e.png",
+    "static/media/logo-white.6c89a3f0.png": "/Nature-Tours/static/media/logo-white.6c89a3f0.png",
+    "static/media/nat-1-large.a1c1cbdb.jpg": "/Nature-Tours/static/media/nat-1-large.a1c1cbdb.jpg",
+    "static/media/nat-1.0e0a34b9.jpg": "/Nature-Tours/static/media/nat-1.0e0a34b9.jpg",
+    "static/media/Booking.scss": "/Nature-Tours/static/media/nat-10.66b4c17a.jpg",
+    "static/media/nat-2-large.cbc0cd9f.jpg": "/Nature-Tours/static/media/nat-2-large.cbc0cd9f.jpg",
+    "static/media/nat-2.e2a50751.jpg": "/Nature-Tours/static/media/nat-2.e2a50751.jpg",
+    "static/media/nat-3-large.da53b7a0.jpg": "/Nature-Tours/static/media/nat-3-large.da53b7a0.jpg",
+    "static/media/nat-3.5eff150a.jpg": "/Nature-Tours/static/media/nat-3.5eff150a.jpg",
+    "static/media/Features.scss": "/Nature-Tours/static/media/nat-4.114dc940.jpg",
+    "static/media/Tours.scss": "/Nature-Tours/static/media/nat-7.167e44e4.jpg",
+    "static/media/nat-8.10678031.jpg": "/Nature-Tours/static/media/nat-8.10678031.jpg",
+    "static/media/nat-9.b7a3e52c.jpg": "/Nature-Tours/static/media/nat-9.b7a3e52c.jpg",
+    "static/media/video.697d9c04.mp4": "/Nature-Tours/static/media/video.697d9c04.mp4",
+    "static/media/video.defbf1bb.webm": "/Nature-Tours/static/media/video.defbf1bb.webm"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a23a079e.js",
+    "static/js/2.b4a4e902.chunk.js",
+    "static/css/main.a5808356.chunk.css",
+    "static/js/main.4f178fb7.chunk.js"
+  ]
+}
