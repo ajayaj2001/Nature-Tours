@@ -20,18 +20,18 @@ const Footer = () => {
                     <div className="col-1-of-2">
                         <div className="footer__navigation">
                             <ul className="footer__list">
-                                <li className="footer__item"><a href="#" className="footer__link">company</a></li>
-                                <li className="footer__item"><a href="#" className="footer__link">contact us</a></li>
-                                <li className="footer__item"><a href="#" className="footer__link">carrear</a></li>
-                                <li className="footer__item"><a href="#" className="footer__link">privacy policy</a></li>
-                                <li className="footer__item"><a href="#" className="footer__link">terms</a></li>
+                                <li className="footer__item"><button className="footer__link">company</button></li>
+                                <li className="footer__item"><button className="footer__link">contact us</button></li>
+                                <li className="footer__item"><button className="footer__link">carrear</button></li>
+                                <li className="footer__item"><button className="footer__link">privacy policy</button></li>
+                                <li className="footer__item"><button className="footer__link">terms</button></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-1-of-2">
                         <p className="footer__copyright">
-                            Built by <a href="#" className="footer__link">AJAY AJ</a> for his Personal usage. Copyright © by
-                            <a href="#" className="footer__link">AJ-sites</a>You are 100% allowed to use this webpage for insperation(insperired),
+                            Built by <button className="footer__link">AJAY AJ</button> for his Personal usage. Copyright © by
+                            <button className="footer__link">AJ-sites</button>You are 100% allowed to use this webpage for insperation(insperired),
                         but NOT to claim it as your own design. i think its petty good ,lot more advance css and sass.
                         </p>
                     </div>

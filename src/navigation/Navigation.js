@@ -12,11 +12,11 @@ const Navigation = () => {
 
                 <nav className="navigation__nav">
                     <ul className="navigation__list">
-                        <li className="navigation__item"><a href="#" className="navigation__link"><span>01</span>Home</a></li>
-                        <li className="navigation__item"><a href="#" className="navigation__link"><span>02</span>About Natous</a></li>
-                        <li className="navigation__item"><a href="#" className="navigation__link"><span>03</span>Adventure Way</a></li>
-                        <li className="navigation__item"><a href="#" className="navigation__link"><span>04</span>Stories</a></li>
-                        <li className="navigation__item"><a href="#" className="navigation__link"><span>05</span>Booking</a></li>
+                        <li className="navigation__item"><a href="#future-purpose" className="navigation__link"><span>01</span>Home</a></li>
+                        <li className="navigation__item"><a href="#future-purpose" className="navigation__link"><span>02</span>About Natous</a></li>
+                        <li className="navigation__item"><a href="#future-purpose" className="navigation__link"><span>03</span>Adventure Way</a></li>
+                        <li className="navigation__item"><a href="#future-purpose" className="navigation__link"><span>04</span>Stories</a></li>
+                        <li className="navigation__item"><a href="#future-purpose" className="navigation__link"><span>05</span>Booking</a></li>
                     </ul>
                 </nav>
             </section>

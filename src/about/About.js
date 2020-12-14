@@ -26,9 +26,9 @@ const about = () => {
                         </div>
                         <div className="col-1-of-2">
                             <div className="composition">
-                                <img src={img1} srcSet={`${img1small} 300w,${img1} 1000w`} alt="photo 1" className="composition__photo composition__photo--p1" sizes="(max-width:56.25em) 20vw, (max-width:37.5em) 30vw,300px " />
-                                <img src={img2} srcSet={`${img2small} 300w,${img2} 1000w`} alt="photo 2" className="composition__photo composition__photo--p2" sizes="(max-width:56.25em) 20vw, (max-width:37.5em) 30vw,300px " />
-                                <img src={img3} srcSet={`${img3small} 300w,${img3} 1000w`} alt="photo 3" className="composition__photo composition__photo--p3" sizes="(max-width:56.25em) 20vw, (max-width:37.5em) 30vw,300px " />
+                                <img src={img1} srcSet={`${img1small} 300w,${img1} 1000w`} alt="adventure 1" className="composition__photo composition__photo--p1" sizes="(max-width:56.25em) 20vw, (max-width:37.5em) 30vw,300px " />
+                                <img src={img2} srcSet={`${img2small} 300w,${img2} 1000w`} alt="adventure 2" className="composition__photo composition__photo--p2" sizes="(max-width:56.25em) 20vw, (max-width:37.5em) 30vw,300px " />
+                                <img src={img3} srcSet={`${img3small} 300w,${img3} 1000w`} alt="adventure 3" className="composition__photo composition__photo--p3" sizes="(max-width:56.25em) 20vw, (max-width:37.5em) 30vw,300px " />
                             </div>
                         </div>
                     </div>

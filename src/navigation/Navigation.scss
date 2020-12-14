@@ -69,6 +69,7 @@ $color-dark-green: #18805d;
         padding-bottom: 1.8rem;
     }
     &__link {
+        &,
         &:link,
         &:visited {
             visibility: hidden;
